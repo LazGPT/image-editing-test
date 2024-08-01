@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.upload-panel, .filter-panel {
+    margin-bottom: 20px;
+}
+
+#fileInput {
+    display: none;
+}
+
+.btn {
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: italic;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0066cc;
+    color: white;
+}
+
+#canvas {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#downloadBtn {
+    display: block;
+    margin: 0 auto;
+}

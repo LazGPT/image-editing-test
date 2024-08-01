@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="upload-panel">
+            <input type="file" id="fileInput" accept="image/*" capture="camera">
+            <button id="uploadBtn" class="btn">Upload Image</button>
+            <button id="cameraBtn" class="btn">Take Photo</button>
+        </div>
+        <div class="filter-panel">
+            <button id="bwFilter" class="btn">Black & White</button>
+            <button id="vintageFilter" class="btn">Vintage</button>
+            <button id="sketchFilter" class="btn">Sketch</button>
+            <button id="pixelateFilter" class="btn">Pixelate</button>
+        </div>
+        <canvas id="canvas"></canvas>
+        <button id="downloadBtn" class="btn">Download Image</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
